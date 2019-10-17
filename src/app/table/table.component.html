@@ -1,0 +1,24 @@
+<table class="table-striped" >
+    <thead id = 'all_list'>
+    <td style="width: 32px; height: 32px;">POS</td>
+    <td style="width: 30px;"></td>
+    <td style="width: 70px; text-align: left">TEAM</td>
+    <td style="width: 200px; height: 32px; text-align: right; padding: 0px 10px;">MP</td>
+    <td style="width: 32px; height: 32px;">W</td>
+    <td style="width: 32px; height: 32px;">D</td>
+    <td style="width: 32px; height: 32px;">L</td>
+    <td style="width: 32px; height: 32px;">GP</td>
+    <td style="width: 32px; height: 32px;">P</td>
+    </thead>
+    <tr *ngFor="let team of table">
+      <td class="table-num">{{team.position}}</td>
+      <td id="team-crest"><a [routerLink]="['/team', team.teamId]"><img src={{team.teamCrestUrl}} width="20" height="20"></a></td>
+      <td id="team-name"><a [routerLink]="['/team', team.teamId]">{{team.teamName}}</a></td>
+      <td class="match-played">{{team.matchPlayed}}</td>
+      <td class="table-num">{{team.wins}}</td>
+      <td class="table-num">{{team.draws}}</td>
+      <td class="table-num">{{team.loses}}</td>
+      <td class="table-num">{{team.goalsDifference}}</td>
+      <td class="table-num" id="team-points">{{team.points}}</td>
+    </tr>
+</table>

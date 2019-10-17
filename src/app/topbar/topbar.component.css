@@ -1,0 +1,125 @@
+.topbar{
+    background-color: rgb(144, 181, 216);
+    height: 80px;
+    margin: 0;
+    padding: 10px;
+  }
+  .container{
+    height: 60px;
+    background-color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    vertical-align: middle;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.23em;
+  }
+  .myclasssize{
+    margin-bottom: 30px;
+  }
+  
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: cadetblue;
+  }
+
+  #premierLeague {
+    font-family: 'Montserrat', sans-serif;
+    vertical-align: middle;
+    color: black;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 80px;
+    text-align: left;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding-left: 150px;
+  }
+  
+  #about2{
+    font-family: 'Montserrat', sans-serif;
+    vertical-align: middle;
+    color: black;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 80px;
+    text-align: right;
+    letter-spacing: 0.23em;
+    margin: 0;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+  
+  #epllogo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px
+  }
+  #logo{
+    margin-top: -90px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  li {
+  float: left;
+  }
+  
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 110px;
+  text-decoration: none;
+  border-bottom: 5px solid transparent;
+  }
+
+  
+  li a:hover{
+    border-bottom: 5px solid rgb(19, 236, 135);
+    }
+  
+  @media screen and (min-width: 1101px) {
+    #li-ab, #li-tb {
+      width: 15%;
+      height: 65px;
+      
+      text-align: center;
+    }
+  
+    #li-um, #li-ts{
+      width: 35%;
+      height: 65px;
+      
+      text-align: center;
+    }
+    
+  
+    li a{
+      padding: 12.5px 0 7.5px 0;
+    }
+  
+  }
+  
+  @media screen and (max-width: 1100px) {
+    li {
+    float: none;
+    border-left: 0pt;
+    border-right: 0pt;
+    width: 100%;
+    }
+    
+    .myclasssize{
+      margin-bottom: 300px;
+    }
+    
+  }
+  
+  
+  

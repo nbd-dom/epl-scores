@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="col-md-6">
+      <table class="table">
+        <thead>
+          <tr>
+            <th colspan="3">Last matches</th>
+          </tr>
+        </thead>
+        <table class="navigate-tbody" *ngFor="let match of finishedMatches" (click)="navigateToMatch(match.matchId)">
+          <tr>
+            <td rowspan="2"><img src={{match.opponentCrestUrl}} onError="this.src='assets/img/unknown-team-crest.png';" height="80" style ="margin-left: 15px"></td>
+            <td class="left-cell">{{match.opponentName}}</td>
+            <td class="right-cell">{{match.ftHomeScore}} - {{match.ftAwayScore}} ({{match.homeOrAway}})</td>
+          </tr>
+          <tr>
+            <td class="left-cell">{{match.competitionName}}</td>
+            <td class="right-cell">{{match.result}} - {{match.date}}</td>
+          </tr>
+        </table>
+      </table>
+    </div>
+    <div class="col-md-6">
+      <table class="table">
+        <thead>
+          <tr>
+            <th colspan="3">Live and upcoming matches</th>
+          </tr>
+        </thead>
+        <table class="navigate-tbody" *ngFor="let match of liveAndScheduledMatches" (click)="navigateToMatch(match.matchId)">
+          <tr>
+            <td rowspan="2"><img src={{match.opponentCrestUrl}} onError="this.src='assets/img/unknown-team-crest.png';" height="80"></td>
+            <td class="left-cell">{{match.opponentName}}</td>
+            <td class="right-cell">{{match.time}}</td>
+          </tr>
+          <tr>
+            <td class="left-cell">{{match.competitionName}}</td>
+            <td class="right-cell">{{match.date}}</td>
+          </tr>
+        </table>
+      </table>
+    </div>
+  </div>
+
+  
+  

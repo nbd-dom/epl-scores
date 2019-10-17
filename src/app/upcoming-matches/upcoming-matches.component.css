@@ -1,0 +1,61 @@
+
+  p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.23em;
+    text-align: center;
+  }
+  td.team-crest{
+    text-align: center;
+  }
+  table{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .upcomingMatch { 
+    position: relative;
+    top: 30px;
+    text-align: center;
+  }
+  
+  #upcomingMatchContent{
+    border: 2px solid #e3e3e3;
+    width: 55%;
+    height: 130px;  
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+    border-radius: 25px
+  }
+
+table#upcomingMatchContent:nth-child(even) {
+    background:#E3E3E3;
+}
+table#upcomingMatchContent:nth-child(odd)  {
+    background-color: #FFFFFF;
+}
+
+span {
+  vertical-align: bottom;
+  background-color: #e3e3e3; 
+  border-radius: 10px 10px 0px 0px; 
+  padding: 3px 15px 7px 15px;
+}
+
+table#upcomingMatchContent:nth-child(even) span{
+  background:#ffffff;
+
+}
+@media screen and (max-width: 600px) {
+  #upcomingMatchContent{
+    width: 70%;
+  }
+}

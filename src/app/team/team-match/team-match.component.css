@@ -1,0 +1,54 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.navigate-tbody {
+    cursor: pointer;
+    border: 2px solid #e3e3e3;
+    border-radius: 15px;
+    width: 90%;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+.table{
+    width: 100%;
+}
+.team-crest
+{
+    height: 80;
+    width: 80;
+}
+.left-cell{
+    text-align: left;
+}
+
+.right-cell{
+    text-align: right;
+}
+.img{
+    text-align: left;
+}
+
+#MatchContent{
+    border: 2px solid #e3e3e3;
+    width: 55%;
+    height: 130px;  
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    padding-left: 20px;
+  }
+
+  @media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 50%;
+}
+  }

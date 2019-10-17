@@ -1,0 +1,79 @@
+.table-striped{
+    width: 100%;
+    margin-left: auto; 
+    margin-right:auto; 
+    width: 80%; 
+    height: 32px;
+    border-spacing: 0px; 
+}
+
+#team-name{
+    text-align: left;
+    font-size: 14px;
+    width: 70px; 
+}
+
+#team-name a{
+    color: rgba(0,0,0,.9);
+    text-decoration: none;
+}
+
+#team-crest{
+    width: 30px;
+}
+.table-num{
+    font-size: 14px; 
+    width: 32px; 
+    height: 32px;
+}
+.match-played{
+    font-size: 14px;
+     width: 200px; 
+     height: 32px; 
+     text-align: right; 
+     padding: 0px 20px;
+}
+#team-points{
+    font-weight: 600;
+}
+
+#all_list{
+    background: #a0a6ac;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.23em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+tr:nth-child(even) {
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 250;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.23em;
+}
+
+tr:nth-child(odd) {
+    background-color: #f3f3f6;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 250;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.23em;
+
+}
+
+
+
+

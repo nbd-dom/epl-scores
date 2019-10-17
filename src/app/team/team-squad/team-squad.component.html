@@ -1,0 +1,13 @@
+  <table class="table-striped" >
+      <thead id = 'list'>
+      <td style="width: 32px; height: 32px;">Shirt No.</td>
+      <td style="width: 70px; text-align: left">Player Name</td>
+      <td style="width: 200px; height: 32px; text-align: right; padding: 0px 45px;">Role</td>
+      </thead>
+      <tr *ngFor="let staff of squad">
+          <td id="player-shirt">{{staff.shirtNumber}}</td>
+          <td id="player-name">{{staff.name}}</td>
+          <td class="player-pos">{{staff.position}}</td>
+        </tr>
+    </table>
+    

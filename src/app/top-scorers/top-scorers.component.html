@@ -1,0 +1,13 @@
+  <table class="table-striped" >
+      <thead id = 'list'>
+      <td style="width: 32px; height: 32px;">Team</td>
+      <td style="width: 70px; text-align: left">Player Name</td>
+      <td style="width: 200px; height: 32px; text-align: right; padding: 0px 10px;">Goals</td>
+      </thead>
+      <tr *ngFor="let scorer of topScorers">
+          <td id="player-crest"><img src={{scorer.teamCrestUrl}} onError="this.src='assets/img/unknown-team-crest.png';" height="30"></td>
+          <td id="player-name">{{scorer.playerName}}</td>
+          <td class="player-goals">{{scorer.goals}}</td>
+        </tr>
+    </table>
+    

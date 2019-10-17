@@ -1,0 +1,23 @@
+div {
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 25px;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  a {
+    text-align: center;
+    letter-spacing: 3px;
+    word-break: break-all;
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  

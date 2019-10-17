@@ -1,0 +1,23 @@
+  <div class  = 'upcomingMatch' > 
+  <table *ngFor= "let match of scheduledMatches" id = 'upcomingMatchContent' >
+    
+      <tr  style = "vertical-align: bottom; padding: 50px" (click)="navigateToMatch(match.matchId)">
+          <td class="team-crest">
+            <img src={{match.homeTeamCrestUrl}} width="80" height="80" style = "margin: 20px 30px 20px 30px"></td>
+          <td style="text-align: center">
+           
+              <table>
+                <tr style = "line-height: 60px; text-align: center">{{match.homeTeamName}} - {{match.awayTeamName}}</tr>
+                <tr style = "text-align: center; vertical-align: bottom">
+                    <td><span>{{match.date}}
+                    <td></td>{{match.time}}</span></td>
+                </tr>
+              </table>
+            
+          </td>
+          <td class="team-crest"><img src={{match.awayTeamCrestUrl}} width="80" height="80" style = "margin: 20px 30px 20px 30px"></td>
+      </tr>
+
+  </table>
+</div>
+

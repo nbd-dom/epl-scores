@@ -1,0 +1,69 @@
+.table-striped{
+    width: 70%; 
+    height: 32px;
+    margin-left: auto; 
+    margin-right:auto; 
+    border-spacing: 0px;
+    margin-top: auto;
+}
+
+#player-name{
+    text-align: left;
+    font-size: 14px;
+    width: 70px; 
+}
+
+#player-name a{
+    color: rgba(0,0,0,.9);
+}
+
+#player-shirt{
+    width: 30px;
+    font-weight: 600;
+}
+
+.player-pos{
+    font-size: 14px;
+     width: 200px; 
+     height: 32px; 
+     text-align: right; 
+     padding: 0px 20px;
+}
+#list{
+    background: #a0a6ac;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+tr:nth-child(even) {
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 250;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+tr:nth-child(odd) {
+    background-color: #f3f3f6;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 250;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+}
+
+
+
+
