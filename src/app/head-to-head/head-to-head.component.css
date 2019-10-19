@@ -1,9 +1,7 @@
 #main{
     margin-right: 0;
 }
-.h{
-    padding-left: 90px;
-}
+
 #match-div{
     text-align: center;
     align-content: center;
@@ -107,12 +105,12 @@
 
 #date-cell{
     width: 100px;
-    text-align: right;
+    text-align: center;
 }
 
 #time-cell{
     width: 100px;
-    text-align: left;
+    text-align: center;
 }
 
 @media (max-width: 767px) {
